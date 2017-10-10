@@ -38,7 +38,6 @@ MERGE(A, p, q, r)
 // i는 L의 idx 
 // j는 R의 idx
 
-// 분할 끝
 
 12  for k = p to r // 정복 시작 k = p..r (L 배열만)
 13      if L[i] <= R[j] // L[i]가 R[j]보다 작거나 같으면
